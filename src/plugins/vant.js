@@ -1,0 +1,59 @@
+import Vue from 'vue'
+import {
+  Button,
+  NavBar,
+  CellGroup,
+  Field,
+  Toast,
+  Icon,
+  CountDown,
+  Tabbar,
+  TabbarItem,
+  Tabs,
+  Tab,
+  PullRefresh,
+  List,
+  Cell,
+  Image,
+  Popup,
+  Grid,
+  GridItem,
+  Loading,
+  Divider,
+  Row,
+  Col,
+  Search,
+  Dialog,
+  ImagePreview,
+  ActionSheet,
+  DatetimePicker
+} from 'vant'
+
+Vue.use(Button)
+Vue.use(NavBar)
+Vue.use(CellGroup)
+Vue.use(Field)
+Vue.use(Toast)
+Vue.use(Icon)
+Vue.use(CountDown)
+Vue.use(Tabbar)
+Vue.use(TabbarItem)
+Vue.use(Tabs)
+Vue.use(Tab)
+Vue.use(PullRefresh)
+Vue.use(List)
+Vue.use(Cell)
+Vue.use(Image)
+Vue.use(Popup)
+Vue.use(Grid)
+Vue.use(GridItem)
+Vue.use(Loading)
+Vue.use(Divider)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Search)
+Vue.use(Dialog)
+Vue.use(ImagePreview)
+Vue.use(ActionSheet)
+Vue.use(DatetimePicker)
+Vue.prototype.$toast = Toast
